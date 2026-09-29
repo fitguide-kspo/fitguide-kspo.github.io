@@ -269,17 +269,27 @@
     setT('dd-status-tag', di === t ? '오늘' : '완료');
   };
 
-  // 설정 탭: 내 기록 초기화
-  window.fgResetMyRecords = function(){
-    const p = pid(), name = personas[currentPersonaIdx].name;
-    if (!confirm(`${name}님 프로필로 남긴 체크인·메모·설정을 모두 지울까요?`)) return;
+  // 설정 탭: 내 기록 초기화 — 다른 설정 항목처럼 하단 시트로 확인
+  window.fgOpenResetSheet = function(){
+    setT('fg-reset-sub', `${personas[currentPersonaIdx].name}님 프로필로 남긴 체크인·메모·설정을 모두 지워요. 지운 기록은 되돌릴 수 없어요.`);
+    openModal('modal-reset-records');
+  };
+  window.fgResetMyRecords = async function(){
+    closeModals();
+    const p = pid();
     delete cache[p]; persist();
     try { localStorage.removeItem('fg_start_' + p); } catch(e){}
-    remote('기록 삭제', () => Promise.all([
-      sb.from('checkins').delete().eq('persona_id', p),
-      sb.from('memos').delete().eq('persona_id', p),
-      sb.from('user_settings').delete().eq('persona_id', p)
-    ]).then(rs => rs.find(r => r.error)));
+    // DB 삭제가 끝난 뒤에 다시 불러와야 지운 기록이 DB에서 되살아나지 않는다
+    try {
+      if (await remoteReady){
+        const rs = await Promise.all([
+          sb.from('checkins').delete().eq('persona_id', p),
+          sb.from('memos').delete().eq('persona_id', p),
+          sb.from('user_settings').delete().eq('persona_id', p)
+        ]);
+        const bad = rs.find(r => r.error); if (bad) console.warn('[store] 기록 삭제 실패', bad.error);
+      }
+    } catch(e){ console.warn('[store] 기록 삭제 실패', e); }
     loadPersonaData(currentPersonaIdx);
     showToast('내 기록을 초기화했어요');
   };
@@ -288,9 +298,22 @@
     if (!row || $('fg-reset-row')) return;
     const r = document.createElement('div');
     r.className = 'setting-row'; r.id = 'fg-reset-row'; r.style.cursor = 'pointer';
-    r.setAttribute('onclick', 'fgResetMyRecords()');
+    r.setAttribute('onclick', 'fgOpenResetSheet()');
     r.innerHTML = '<div><div class="st-name">내 기록 초기화</div><div class="st-val">이 프로필로 남긴 체크인·메모·설정을 지워요</div></div><span class="st-arrow">›</span>';
     row.parentNode.insertBefore(r, row.nextSibling);
+
+    const ref = $('modal-set-time');                              // 다른 설정 시트와 같은 위치에 둔다
+    if (!ref || $('modal-reset-records')) return;
+    const m = document.createElement('div');
+    m.id = 'modal-reset-records'; m.className = 'modal-overlay';
+    m.innerHTML = `<div class="bottom-sheet">
+      <button class="sheet-x" onclick="closeModals()">✕</button>
+      <div class="sheet-title">내 기록 초기화</div>
+      <div class="sheet-sub" id="fg-reset-sub"></div>
+      <button class="btn-primary" style="background:#DC2626;" onclick="fgResetMyRecords()">초기화하기</button>
+      <button class="cancel-btn" onclick="closeModals()">취소</button>
+    </div>`;
+    ref.parentNode.insertBefore(m, ref.nextSibling);
   })();
 
   // 시작: 다크 모드 복원 + 현재 프로필 기록 복원
