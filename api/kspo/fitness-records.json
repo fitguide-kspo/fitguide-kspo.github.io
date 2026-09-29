@@ -1,0 +1,6365 @@
+[
+ {
+  "code": "P1",
+  "memberId": "AAGyCqE3eM1Hs+3w7xwckZmO",
+  "desc": "유연성 집중 케어 · 단일 약점형",
+  "ageGroup": "성인",
+  "sex": "여",
+  "age": 35,
+  "ageBin": "35~39세",
+  "center": "제주",
+  "measureDate": "20260708",
+  "file": "KS_NFA_FTNESS_MESURE_MVN_PRSCRPTN_GNRLZ_INFO_202607.csv",
+  "row": 8817,
+  "centerCd": "033",
+  "body": {
+   "신장(cm)": 162.4,
+   "체중(kg)": 61.6,
+   "BMI": 23.3,
+   "체지방률(%)": 32.9,
+   "허리둘레(cm)": 84.0,
+   "수축기혈압": 109.0,
+   "이완기혈압": 77.0,
+   "악력 좌(kg)": 28.3,
+   "악력 우(kg)": 29.4
+  },
+  "raw": [
+   {
+    "section": "준비운동",
+    "items": [
+     "등/어깨 뒤쪽 스트레칭",
+     "가슴/어깨 앞쪽 스트레칭",
+     "허리 스트레칭"
+    ]
+   },
+   {
+    "section": "본운동",
+    "items": [
+     "누워서 배가로근 수축 I",
+     "앉았다 일어서기",
+     "엎드려 버티기",
+     "팔굽혀펴기",
+     "달리기",
+     "실외 자전거타기"
+    ]
+   },
+   {
+    "section": "정리운동",
+    "items": [
+     "엉덩이 스트레칭",
+     "넙다리 뒤쪽 스트레칭",
+     "넙다리 앞쪽 스트레칭",
+     "넙다리 안쪽 스트레칭"
+    ]
+   }
+  ],
+  "week": [
+   {
+    "day": "월",
+    "recommend": "A",
+    "options": [
+     {
+      "id": "A",
+      "label": "정적 스트레칭 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "엉덩이 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "짐볼",
+        "source": "own",
+        "videoId": "DuT2CxXpjMI",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "넙다리 안쪽 스트레칭",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "RrGoEv7vTdU",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "넙다리 뒤쪽 스트레칭",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "ostPgJJAAoE",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "넙다리 앞쪽 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "tWVTfDntPSs",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "하체·고관절 가동성 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "유산소 운동 전 동적 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "ul0Vbv7uiHE",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "앉았다 일어서기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "하체",
+        "tool": "공/의자",
+        "source": "own",
+        "videoId": "CZl5Th--uhQ",
+        "reason": "[근력/근지구력] 균형 · 부위 하체"
+       },
+       {
+        "name": "하지 루틴 스트레칭1",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "YsUMvs_yCOU",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "하지 루틴 스트레칭2",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "aS-BWKK2izs",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "전신 이완 · 밸런스 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "좌식생활자를 위한 동적 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "JQUBQizjfj0",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "달리기",
+        "section": "본운동",
+        "sets": "25분",
+        "fitness": "심폐지구력",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "fmtLoxbuflw",
+        "reason": "[심폐지구력] 균형 · 부위 전신"
+       },
+       {
+        "name": "전신 루틴 스트레칭",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "xzCoOyOTgpc",
+        "reason": "약점 [유연성] 직접 보강 · 부위 전신"
+       },
+       {
+        "name": "자가근막이완술 루틴 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "신체부위 :",
+        "source": "lib",
+        "videoId": "RyocWLWoRP0",
+        "reason": "부위 전신"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "화",
+    "recommend": "B",
+    "options": [
+     {
+      "id": "A",
+      "label": "정적 스트레칭 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "작은 공을 이용한 동적 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "공",
+        "source": "lib",
+        "videoId": "2oE97tmKR7k",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "등/어깨 뒤쪽 스트레칭",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "의자",
+        "source": "own",
+        "videoId": "R4oPhjIJoLw",
+        "reason": "약점 [유연성] 직접 보강 · 부위 상체"
+       },
+       {
+        "name": "가슴/어깨 앞쪽 스트레칭",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "cbV7XSVBM2w",
+        "reason": "약점 [유연성] 직접 보강 · 부위 상체"
+       },
+       {
+        "name": "엉덩이 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "UtSQHEh-4Kg",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "하체·고관절 가동성 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "짐볼을 이용한 동적 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "짐볼",
+        "source": "lib",
+        "videoId": "8UpZdbYtgms",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "넙다리 안쪽 스트레칭",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "AX0FSMU34EE",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "넙다리 앞쪽 스트레칭",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "U13sBcbOsl4",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "허리 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "몸통",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "LiA_jShjQoI",
+        "reason": "부위 몸통"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "전신 이완 · 밸런스 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "상지 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "6TWvzumskts",
+        "reason": "부위 상체"
+       },
+       {
+        "name": "팔굽혀펴기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "8iUa8b_j9QI",
+        "reason": "[근력/근지구력] 균형 · 부위 전신"
+       },
+       {
+        "name": "윗몸올리기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "WHwrbWu3_U4",
+        "reason": "[근력/근지구력] 균형 · 부위 전신"
+       },
+       {
+        "name": "허리 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "몸통",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "19jXlYi7Mio",
+        "reason": "부위 몸통"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "수",
+    "recommend": "C",
+    "options": [
+     {
+      "id": "A",
+      "label": "정적 스트레칭 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "배스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "몸통",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "daU2osrrHRk",
+        "reason": "부위 몸통"
+       },
+       {
+        "name": "넙다리 안쪽 스트레칭",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "RrGoEv7vTdU",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "엉덩이 스트레칭",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "짐볼",
+        "source": "own",
+        "videoId": "DuT2CxXpjMI",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "등/어깨 뒤쪽 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "tmZ87GjdId4",
+        "reason": "부위 상체"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "하체·고관절 가동성 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "옆구리 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "몸통",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "1KXZCl1e5gY",
+        "reason": "부위 몸통"
+       },
+       {
+        "name": "넙다리 안쪽 스트레칭",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "RrGoEv7vTdU",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "엉덩이 스트레칭",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "짐볼",
+        "source": "own",
+        "videoId": "DuT2CxXpjMI",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "아래 팔 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "fU0N9YdBFxI",
+        "reason": "부위 상체"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "전신 이완 · 밸런스 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "목 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "d1tYcRykLPk",
+        "reason": "부위 상체"
+       },
+       {
+        "name": "누워서 다리 들어올리기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "-LLOH8DA8no",
+        "reason": "[근력/근지구력] 균형 · 부위 전신"
+       },
+       {
+        "name": "물속에서 걷기",
+        "section": "본운동",
+        "sets": "25분",
+        "fitness": "심폐지구력",
+        "region": "전신",
+        "tool": "수중운동",
+        "source": "lib",
+        "videoId": "dmyqqCudVvI",
+        "reason": "[심폐지구력] 균형 · 부위 전신"
+       },
+       {
+        "name": "전신 루틴 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "xzCoOyOTgpc",
+        "reason": "부위 전신"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "목",
+    "recommend": "A",
+    "options": [
+     {
+      "id": "A",
+      "label": "정적 스트레칭 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "유산소 운동 전 동적 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "ul0Vbv7uiHE",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "하지 루틴 스트레칭1",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "YsUMvs_yCOU",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "하지 루틴 스트레칭2",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "aS-BWKK2izs",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "자가근막이완술 루틴 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "신체부위 :",
+        "source": "lib",
+        "videoId": "RyocWLWoRP0",
+        "reason": "부위 전신"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "하체·고관절 가동성 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "넙다리 앞쪽 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "tWVTfDntPSs",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "넙다리 뒤쪽 스트레칭",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "ostPgJJAAoE",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "넙다리 안쪽 스트레칭",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "RrGoEv7vTdU",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "좌식생활자를 위한 동적 루틴 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "JQUBQizjfj0",
+        "reason": "부위 전신"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "전신 이완 · 밸런스 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "유산소 운동 전 동적 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "ul0Vbv7uiHE",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "소파를 이용한 윗몸올리기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "4oEQWLBxA0Y",
+        "reason": "[근력/근지구력] 균형 · 부위 전신"
+       },
+       {
+        "name": "짐볼 윗몸올리기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "전신",
+        "tool": "짐볼",
+        "source": "lib",
+        "videoId": "S3tRws2NRbk",
+        "reason": "[근력/근지구력] 균형 · 부위 전신"
+       },
+       {
+        "name": "전신 루틴 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "xzCoOyOTgpc",
+        "reason": "부위 전신"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "금",
+    "recommend": "B",
+    "options": [
+     {
+      "id": "A",
+      "label": "정적 스트레칭 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "짐볼을 이용한 동적 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "짐볼",
+        "source": "lib",
+        "videoId": "8UpZdbYtgms",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "허리 스트레칭",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "몸통",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "LiA_jShjQoI",
+        "reason": "약점 [유연성] 직접 보강 · 부위 몸통"
+       },
+       {
+        "name": "넙다리 안쪽 스트레칭",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "AX0FSMU34EE",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "넙다리 앞쪽 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "U13sBcbOsl4",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "하체·고관절 가동성 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "작은 공을 이용한 동적 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "공",
+        "source": "lib",
+        "videoId": "2oE97tmKR7k",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "앉았다 일어서기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "하체",
+        "tool": "공/의자",
+        "source": "own",
+        "videoId": "CZl5Th--uhQ",
+        "reason": "[근력/근지구력] 균형 · 부위 하체"
+       },
+       {
+        "name": "엉덩이 스트레칭",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "UtSQHEh-4Kg",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "등/어깨 뒤쪽 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "의자",
+        "source": "own",
+        "videoId": "R4oPhjIJoLw",
+        "reason": "부위 상체"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "전신 이완 · 밸런스 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "가슴/어깨 앞쪽 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "cbV7XSVBM2w",
+        "reason": "부위 상체"
+       },
+       {
+        "name": "달리기",
+        "section": "본운동",
+        "sets": "25분",
+        "fitness": "심폐지구력",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "fmtLoxbuflw",
+        "reason": "[심폐지구력] 균형 · 부위 전신"
+       },
+       {
+        "name": "서서 균형잡으며 몸통 회전하기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "전신",
+        "tool": "보슈볼",
+        "source": "lib",
+        "videoId": "TJJyNJj0GGg",
+        "reason": "[근력/근지구력] 균형 · 부위 전신"
+       },
+       {
+        "name": "전신 루틴 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "xzCoOyOTgpc",
+        "reason": "부위 전신"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "토",
+    "recommend": "C",
+    "options": [
+     {
+      "id": "A",
+      "label": "정적 스트레칭 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "상지 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "6TWvzumskts",
+        "reason": "부위 상체"
+       },
+       {
+        "name": "넙다리 안쪽 스트레칭",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "RrGoEv7vTdU",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "엉덩이 스트레칭",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "짐볼",
+        "source": "own",
+        "videoId": "DuT2CxXpjMI",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "허리 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "몸통",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "19jXlYi7Mio",
+        "reason": "부위 몸통"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "하체·고관절 가동성 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "배스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "몸통",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "daU2osrrHRk",
+        "reason": "부위 몸통"
+       },
+       {
+        "name": "넙다리 안쪽 스트레칭",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "RrGoEv7vTdU",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "엉덩이 스트레칭",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "짐볼",
+        "source": "own",
+        "videoId": "DuT2CxXpjMI",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "등/어깨 뒤쪽 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "tmZ87GjdId4",
+        "reason": "부위 상체"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "전신 이완 · 밸런스 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "옆구리 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "몸통",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "1KXZCl1e5gY",
+        "reason": "부위 몸통"
+       },
+       {
+        "name": "팔굽혀펴기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "8iUa8b_j9QI",
+        "reason": "[근력/근지구력] 균형 · 부위 전신"
+       },
+       {
+        "name": "윗몸올리기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "WHwrbWu3_U4",
+        "reason": "[근력/근지구력] 균형 · 부위 전신"
+       },
+       {
+        "name": "아래 팔 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "fU0N9YdBFxI",
+        "reason": "부위 상체"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "일",
+    "recommend": "A",
+    "options": [
+     {
+      "id": "A",
+      "label": "정적 스트레칭 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "넙다리 앞쪽 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "tWVTfDntPSs",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "넙다리 뒤쪽 스트레칭",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "ostPgJJAAoE",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "넙다리 안쪽 스트레칭",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "RrGoEv7vTdU",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "좌식생활자를 위한 동적 루틴 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "JQUBQizjfj0",
+        "reason": "부위 전신"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "하체·고관절 가동성 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "유산소 운동 전 동적 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "ul0Vbv7uiHE",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "하지 루틴 스트레칭1",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "YsUMvs_yCOU",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "하지 루틴 스트레칭2",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "aS-BWKK2izs",
+        "reason": "약점 [유연성] 직접 보강 · 부위 하체"
+       },
+       {
+        "name": "자가근막이완술 루틴 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "신체부위 :",
+        "source": "lib",
+        "videoId": "RyocWLWoRP0",
+        "reason": "부위 전신"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "전신 이완 · 밸런스 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "목 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "d1tYcRykLPk",
+        "reason": "부위 상체"
+       },
+       {
+        "name": "누워서 다리 들어올리기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "-LLOH8DA8no",
+        "reason": "[근력/근지구력] 균형 · 부위 전신"
+       },
+       {
+        "name": "물속에서 걷기",
+        "section": "본운동",
+        "sets": "25분",
+        "fitness": "심폐지구력",
+        "region": "전신",
+        "tool": "수중운동",
+        "source": "lib",
+        "videoId": "dmyqqCudVvI",
+        "reason": "[심폐지구력] 균형 · 부위 전신"
+       },
+       {
+        "name": "전신 루틴 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "xzCoOyOTgpc",
+        "reason": "부위 전신"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "rmeta": {
+   "deficit": {
+    "유연성": 0.56,
+    "근력/근지구력": 0.05,
+    "심폐지구력": 0.05,
+    "민첩성/순발력": 0.05
+   },
+   "safety": {
+    "highBP": false,
+    "sbp": 109.0,
+    "dbp": 77.0,
+    "heavy": false,
+    "bmi": 23.3,
+    "avgRpe": 6.2
+   },
+   "popGroup": {
+    "age": "성인",
+    "weak": "유연성",
+    "n": 7053
+   },
+   "themes": [
+    {
+     "id": "A",
+     "label": "정적 스트레칭 집중"
+    },
+    {
+     "id": "B",
+     "label": "하체·고관절 가동성 집중"
+    },
+    {
+     "id": "C",
+     "label": "전신 이완 · 밸런스 코스"
+    }
+   ],
+   "hitOrig": 0,
+   "hitGen": 100,
+   "hitByOpt": {
+    "A": 100,
+    "B": 50,
+    "C": 50
+   },
+   "libSize": 167,
+   "newCount": 54,
+   "ownCount": 30,
+   "total": 84,
+   "uniqueTotal": 29,
+   "weekUnique": 29
+  },
+  "hitPop": [
+   [
+    "유연성",
+    "유연성",
+    14.2,
+    6.8,
+    7.4
+   ]
+  ],
+  "ck": {
+   "goal": 3,
+   "today": 53,
+   "churnWeek": null,
+   "tail": 0,
+   "weeksUsed": 7,
+   "slots": 21,
+   "lo": 76.2,
+   "hi": 90.5,
+   "loRaw": 76.2,
+   "hiRaw": 90.5,
+   "kspo": 63,
+   "log": [
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "일정이 바빴음"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "근육통이 있어 쉼"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "충분한 수면 취함"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "오늘은 컨디션 난조"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "일정이 바빴음"
+    ],
+    [
+     "own",
+     7,
+     "48분",
+     "집에서 스트레칭"
+    ],
+    [
+     "rx",
+     7,
+     "39분",
+     "세트 수 다 채움"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "오늘은 컨디션 난조"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "일정이 바빴음"
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "충분한 수면 취함"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "오늘은 컨디션 난조"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "일정이 바빴음"
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "own",
+     6,
+     "22분",
+     "계단 오르기로 대체"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "오늘은 컨디션 난조"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "일정이 바빴음"
+    ],
+    [
+     "rx",
+     5,
+     "33분",
+     "무리 없이 완료"
+    ],
+    [
+     "own",
+     7,
+     "48분",
+     "계단 오르기로 대체"
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "own",
+     8,
+     "46분",
+     "동네 한 바퀴"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "근육통이 있어 쉼"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "충분한 수면 취함"
+    ],
+    [
+     "rx",
+     6,
+     "34분",
+     "마지막 세트가 조금 힘들었음"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "일정이 바빴음"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "근육통이 있어 쉼"
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rx",
+     5,
+     "24분",
+     "무리 없이 완료"
+    ],
+    [
+     "rx",
+     7,
+     "24분",
+     "마지막 세트가 조금 힘들었음"
+    ],
+    [
+     "own",
+     5,
+     "41분",
+     "집에서 스트레칭"
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rx",
+     6,
+     "46분",
+     "처방 루틴 그대로 수행"
+    ],
+    [
+     "own",
+     7,
+     "26분",
+     "가볍게 걷기 추가"
+    ],
+    [
+     "rx",
+     5,
+     "23분",
+     "세트 수 다 채움"
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "근육통이 있어 쉼"
+    ],
+    [
+     "rx",
+     6,
+     "39분",
+     "무리 없이 완료"
+    ],
+    [
+     "rx",
+     5,
+     "39분",
+     "마지막 세트가 조금 힘들었음"
+    ],
+    [
+     "own",
+     7,
+     "45분",
+     "동네 한 바퀴"
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "일정이 바빴음"
+    ],
+    [
+     "rx",
+     6,
+     "27분",
+     "처방 루틴 그대로 수행"
+    ],
+    [
+     "rx",
+     7,
+     "34분",
+     "약점 부위 자극 잘 들어옴"
+    ],
+    [
+     "rx",
+     6,
+     "24분",
+     "세트 수 다 채움"
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "fut",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "fut",
+     0,
+     "-",
+     ""
+    ]
+   ]
+  },
+  "sim": {
+   "goalPerWeek": 3,
+   "assumedAdherence": 75,
+   "rangeMean": [
+    72,
+    83
+   ],
+   "widthMean": 11.0,
+   "churnRate": 17.7,
+   "decidable": 68.3,
+   "certainUp": 61.7,
+   "certainDown": 6.6,
+   "note": "판정 가능 비율이 가장 높다(68.3%). 추정 범위가 판정선 70% 위에 통째로 놓이는 경우가 많아 '상승 확실'이 61.7%. 앱이 가장 자신 있게 피드백할 수 있는 유형."
+  }
+ },
+ {
+  "code": "P2",
+  "memberId": "AAFS5xG0YfsVj4q9k6lBjOkT",
+  "desc": "근력·심폐 동시 보완 · 중년 대사증후군형",
+  "ageGroup": "성인",
+  "sex": "남",
+  "age": 53,
+  "ageBin": "50~54세",
+  "center": "영암",
+  "measureDate": "20250624",
+  "file": "KS_NFA_FTNESS_MESURE_MVN_PRSCRPTN_GNRLZ_INFO_202506.csv",
+  "row": 28951,
+  "centerCd": "082",
+  "body": {
+   "신장(cm)": 183.6,
+   "체중(kg)": 87.6,
+   "BMI": 26.0,
+   "체지방률(%)": 27.0,
+   "수축기혈압": 125.0,
+   "이완기혈압": 90.0,
+   "악력 좌(kg)": 47.0,
+   "악력 우(kg)": 47.7
+  },
+  "raw": [
+   {
+    "section": "준비운동",
+    "items": [
+     "전신 루틴 스트레칭",
+     "유산소 운동 전 동적 루틴 스트레칭"
+    ]
+   },
+   {
+    "section": "본운동",
+    "items": [
+     "실내 자전거타기",
+     "트레드밀에서 걷기",
+     "스텝퍼 옆으로 뛰어넘기",
+     "앉았다 일어서면서 점프하기",
+     "버피운동",
+     "누워서 배가로근 수축 II",
+     "앉았다 일어서기",
+     "한발 앞으로 내밀고 앉았다 일어서기",
+     "턱걸이"
+    ]
+   },
+   {
+    "section": "정리운동",
+    "items": [
+     "하지 루틴 스트레칭1",
+     "하지 루틴 스트레칭2",
+     "상지 루틴 스트레칭",
+     "자가근막이완술 루틴 스트레칭"
+    ]
+   }
+  ],
+  "week": [
+   {
+    "day": "월",
+    "recommend": "A",
+    "options": [
+     {
+      "id": "A",
+      "label": "유산소 지구력 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "유산소 운동 전 동적 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "ul0Vbv7uiHE",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "실내 자전거타기",
+        "section": "본운동",
+        "sets": "10분",
+        "fitness": "심폐지구력",
+        "region": "하체",
+        "tool": "자전거",
+        "source": "own",
+        "videoId": "7q4Qz15toLo",
+        "reason": "약점 [심폐지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작 · 유산소 합계 20분으로 분할"
+       },
+       {
+        "name": "트레드밀에서 걷기",
+        "section": "본운동",
+        "sets": "10분",
+        "fitness": "심폐지구력",
+        "region": "하체",
+        "tool": "자전거",
+        "source": "own",
+        "videoId": "50UOtjMsGIs",
+        "reason": "약점 [심폐지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작 · 유산소 합계 20분으로 분할"
+       },
+       {
+        "name": "하지 루틴 스트레칭1",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "YsUMvs_yCOU",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "하체 지구력 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "하지 루틴 스트레칭2",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "aS-BWKK2izs",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "앉았다 일어서기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "하체",
+        "tool": "공/의자",
+        "source": "own",
+        "videoId": "CZl5Th--uhQ",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 하체 · 숨 참지 말고 내쉬며 힘주기"
+       },
+       {
+        "name": "한발 앞으로 내밀고 앉았다 일어서기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "szyKFpBZ1_4",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 하체 · 숨 참지 말고 내쉬며 힘주기"
+       },
+       {
+        "name": "넙다리 뒤쪽 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "ostPgJJAAoE",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "근력 보완 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "상지 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "6TWvzumskts",
+        "reason": "부위 상체"
+       },
+       {
+        "name": "밴드잡고 머리 위에서 팔꿈치 펴기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "상체",
+        "tool": "탄력밴드",
+        "source": "lib",
+        "videoId": "wjJQXgN1rv0",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 상체 · 숨 참지 말고 내쉬며 힘주기"
+       },
+       {
+        "name": "탄력밴드 당기면서 팔 들어올리기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "상체",
+        "tool": "탄력밴드",
+        "source": "lib",
+        "videoId": "wX36AaqZk2Q",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 상체 · 숨 참지 말고 내쉬며 힘주기"
+       },
+       {
+        "name": "등/어깨 뒤쪽 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "tmZ87GjdId4",
+        "reason": "부위 상체"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "화",
+    "recommend": "B",
+    "options": [
+     {
+      "id": "A",
+      "label": "유산소 지구력 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "좌식생활자를 위한 동적 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "JQUBQizjfj0",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "걷기",
+        "section": "본운동",
+        "sets": "10분",
+        "fitness": "심폐지구력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "PtvDeH7B--k",
+        "reason": "약점 [심폐지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작 · 유산소 합계 20분으로 분할"
+       },
+       {
+        "name": "실외 자전거타기",
+        "section": "본운동",
+        "sets": "10분",
+        "fitness": "심폐지구력",
+        "region": "하체",
+        "tool": "자전거",
+        "source": "lib",
+        "videoId": "o9w8lVE5lWs",
+        "reason": "약점 [심폐지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작 · 유산소 합계 20분으로 분할"
+       },
+       {
+        "name": "엉덩이 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "UtSQHEh-4Kg",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "하체 지구력 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "작은 공을 이용한 동적 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "공",
+        "source": "lib",
+        "videoId": "2oE97tmKR7k",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "실내 자전거타기",
+        "section": "본운동",
+        "sets": "10분",
+        "fitness": "심폐지구력",
+        "region": "하체",
+        "tool": "자전거",
+        "source": "own",
+        "videoId": "7q4Qz15toLo",
+        "reason": "약점 [심폐지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작 · 유산소 합계 20분으로 분할"
+       },
+       {
+        "name": "계단 올라갔다 내려오기",
+        "section": "본운동",
+        "sets": "10분",
+        "fitness": "심폐지구력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "57-nxXG0U8I",
+        "reason": "약점 [심폐지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작 · 유산소 합계 20분으로 분할"
+       },
+       {
+        "name": "넙다리 안쪽 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "AX0FSMU34EE",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "근력 보완 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "짐볼을 이용한 동적 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "짐볼",
+        "source": "lib",
+        "videoId": "8UpZdbYtgms",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "수건잡고 팔 들어올리기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "상체",
+        "tool": "수건",
+        "source": "lib",
+        "videoId": "s0cjJXHo858",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 상체 · 숨 참지 말고 내쉬며 힘주기"
+       },
+       {
+        "name": "옆으로 누워서팔 앞으로 당기기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "hSyVphHI_9I",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 상체 · 숨 참지 말고 내쉬며 힘주기"
+       },
+       {
+        "name": "가슴/어깨 앞쪽 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "cbV7XSVBM2w",
+        "reason": "부위 상체"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "수",
+    "recommend": "C",
+    "options": [
+     {
+      "id": "A",
+      "label": "유산소 지구력 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "넙다리 앞쪽 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "U13sBcbOsl4",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "실내 자전거타기",
+        "section": "본운동",
+        "sets": "10분",
+        "fitness": "심폐지구력",
+        "region": "하체",
+        "tool": "자전거",
+        "source": "own",
+        "videoId": "7q4Qz15toLo",
+        "reason": "약점 [심폐지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작 · 유산소 합계 20분으로 분할"
+       },
+       {
+        "name": "트레드밀에서 걷기",
+        "section": "본운동",
+        "sets": "10분",
+        "fitness": "심폐지구력",
+        "region": "하체",
+        "tool": "자전거",
+        "source": "own",
+        "videoId": "50UOtjMsGIs",
+        "reason": "약점 [심폐지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작 · 유산소 합계 20분으로 분할"
+       },
+       {
+        "name": "전신 루틴 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "xzCoOyOTgpc",
+        "reason": "부위 전신"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "하체 지구력 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "자가근막이완술 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "신체부위 :",
+        "source": "own",
+        "videoId": "RyocWLWoRP0",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "실내 자전거타기",
+        "section": "본운동",
+        "sets": "20분",
+        "fitness": "심폐지구력",
+        "region": "하체",
+        "tool": "자전거",
+        "source": "own",
+        "videoId": "7q4Qz15toLo",
+        "reason": "약점 [심폐지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "네발기기 자세로 팔 다리 들기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "N6Zvq4CiQhU",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 하체 · 숨 참지 말고 내쉬며 힘주기"
+       },
+       {
+        "name": "허리 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "몸통",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "19jXlYi7Mio",
+        "reason": "부위 몸통"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "근력 보완 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "아래 팔 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "fU0N9YdBFxI",
+        "reason": "부위 상체"
+       },
+       {
+        "name": "팔꿈치 굽히기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "상체",
+        "tool": "물병",
+        "source": "lib",
+        "videoId": "-CbeQjvGgoc",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 상체 · 숨 참지 말고 내쉬며 힘주기"
+       },
+       {
+        "name": "물병 옆으로 들어올리기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "상체",
+        "tool": "물병",
+        "source": "lib",
+        "videoId": "m37laE5fbKI",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 상체 · 숨 참지 말고 내쉬며 힘주기"
+       },
+       {
+        "name": "목 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "d1tYcRykLPk",
+        "reason": "부위 상체"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "목",
+    "recommend": "A",
+    "options": [
+     {
+      "id": "A",
+      "label": "유산소 지구력 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "하지 루틴 스트레칭2",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "aS-BWKK2izs",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "실내 자전거타기",
+        "section": "본운동",
+        "sets": "10분",
+        "fitness": "심폐지구력",
+        "region": "하체",
+        "tool": "자전거",
+        "source": "own",
+        "videoId": "7q4Qz15toLo",
+        "reason": "약점 [심폐지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작 · 유산소 합계 20분으로 분할"
+       },
+       {
+        "name": "트레드밀에서 걷기",
+        "section": "본운동",
+        "sets": "10분",
+        "fitness": "심폐지구력",
+        "region": "하체",
+        "tool": "자전거",
+        "source": "own",
+        "videoId": "50UOtjMsGIs",
+        "reason": "약점 [심폐지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작 · 유산소 합계 20분으로 분할"
+       },
+       {
+        "name": "넙다리 뒤쪽 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "ostPgJJAAoE",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "하체 지구력 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "유산소 운동 전 동적 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "ul0Vbv7uiHE",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "실내 자전거타기",
+        "section": "본운동",
+        "sets": "20분",
+        "fitness": "심폐지구력",
+        "region": "하체",
+        "tool": "자전거",
+        "source": "own",
+        "videoId": "7q4Qz15toLo",
+        "reason": "약점 [심폐지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "네발기기 자세에서 다리 위로 뻗어올리기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "Q_OLBsyY520",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 하체 · 숨 참지 말고 내쉬며 힘주기"
+       },
+       {
+        "name": "하지 루틴 스트레칭1",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "YsUMvs_yCOU",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "근력 보완 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "배스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "몸통",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "daU2osrrHRk",
+        "reason": "부위 몸통"
+       },
+       {
+        "name": "목 굽힘/ 폄 III",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "8JLwdknLw6E",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 상체 · 숨 참지 말고 내쉬며 힘주기"
+       },
+       {
+        "name": "목 굽힘/ 폄 I",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "g7SxlexJM58",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 상체 · 숨 참지 말고 내쉬며 힘주기"
+       },
+       {
+        "name": "옆구리 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "몸통",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "1KXZCl1e5gY",
+        "reason": "부위 몸통"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "금",
+    "recommend": "B",
+    "options": [
+     {
+      "id": "A",
+      "label": "유산소 지구력 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "작은 공을 이용한 동적 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "공",
+        "source": "lib",
+        "videoId": "2oE97tmKR7k",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "실내 자전거타기",
+        "section": "본운동",
+        "sets": "10분",
+        "fitness": "심폐지구력",
+        "region": "하체",
+        "tool": "자전거",
+        "source": "own",
+        "videoId": "7q4Qz15toLo",
+        "reason": "약점 [심폐지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작 · 유산소 합계 20분으로 분할"
+       },
+       {
+        "name": "계단 올라갔다 내려오기",
+        "section": "본운동",
+        "sets": "10분",
+        "fitness": "심폐지구력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "57-nxXG0U8I",
+        "reason": "약점 [심폐지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작 · 유산소 합계 20분으로 분할"
+       },
+       {
+        "name": "넙다리 안쪽 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "AX0FSMU34EE",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "하체 지구력 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "좌식생활자를 위한 동적 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "JQUBQizjfj0",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "앉았다 일어서기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "하체",
+        "tool": "공/의자",
+        "source": "own",
+        "videoId": "CZl5Th--uhQ",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 하체 · 숨 참지 말고 내쉬며 힘주기"
+       },
+       {
+        "name": "한발 앞으로 내밀고 앉았다 일어서기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "szyKFpBZ1_4",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 하체 · 숨 참지 말고 내쉬며 힘주기"
+       },
+       {
+        "name": "엉덩이 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "UtSQHEh-4Kg",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "근력 보완 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "상지 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "6TWvzumskts",
+        "reason": "부위 상체"
+       },
+       {
+        "name": "밴드잡고 머리 위에서 팔꿈치 펴기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "상체",
+        "tool": "탄력밴드",
+        "source": "lib",
+        "videoId": "wjJQXgN1rv0",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 상체 · 숨 참지 말고 내쉬며 힘주기"
+       },
+       {
+        "name": "탄력밴드 당기면서 팔 들어올리기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "상체",
+        "tool": "탄력밴드",
+        "source": "lib",
+        "videoId": "wX36AaqZk2Q",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 상체 · 숨 참지 말고 내쉬며 힘주기"
+       },
+       {
+        "name": "등/어깨 뒤쪽 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "tmZ87GjdId4",
+        "reason": "부위 상체"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "토",
+    "recommend": "C",
+    "options": [
+     {
+      "id": "A",
+      "label": "유산소 지구력 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "짐볼을 이용한 동적 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "짐볼",
+        "source": "lib",
+        "videoId": "8UpZdbYtgms",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "걷기",
+        "section": "본운동",
+        "sets": "10분",
+        "fitness": "심폐지구력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "PtvDeH7B--k",
+        "reason": "약점 [심폐지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작 · 유산소 합계 20분으로 분할"
+       },
+       {
+        "name": "실외 자전거타기",
+        "section": "본운동",
+        "sets": "10분",
+        "fitness": "심폐지구력",
+        "region": "하체",
+        "tool": "자전거",
+        "source": "lib",
+        "videoId": "o9w8lVE5lWs",
+        "reason": "약점 [심폐지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작 · 유산소 합계 20분으로 분할"
+       },
+       {
+        "name": "자가근막이완술 루틴 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "신체부위 :",
+        "source": "own",
+        "videoId": "RyocWLWoRP0",
+        "reason": "부위 전신"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "하체 지구력 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "넙다리 앞쪽 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "U13sBcbOsl4",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "실내 자전거타기",
+        "section": "본운동",
+        "sets": "20분",
+        "fitness": "심폐지구력",
+        "region": "하체",
+        "tool": "자전거",
+        "source": "own",
+        "videoId": "7q4Qz15toLo",
+        "reason": "약점 [심폐지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "서서 뒤꿈치 들기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "PYYWmiTnsVM",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 하체 · 숨 참지 말고 내쉬며 힘주기"
+       },
+       {
+        "name": "전신 루틴 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "xzCoOyOTgpc",
+        "reason": "부위 전신"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "근력 보완 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "가슴/어깨 앞쪽 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "cbV7XSVBM2w",
+        "reason": "부위 상체"
+       },
+       {
+        "name": "수건잡고 팔 들어올리기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "상체",
+        "tool": "수건",
+        "source": "lib",
+        "videoId": "s0cjJXHo858",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 상체 · 숨 참지 말고 내쉬며 힘주기"
+       },
+       {
+        "name": "옆으로 누워서팔 앞으로 당기기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "hSyVphHI_9I",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 상체 · 숨 참지 말고 내쉬며 힘주기"
+       },
+       {
+        "name": "허리 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "몸통",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "19jXlYi7Mio",
+        "reason": "부위 몸통"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "일",
+    "recommend": "A",
+    "options": [
+     {
+      "id": "A",
+      "label": "유산소 지구력 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "유산소 운동 전 동적 루틴 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "ul0Vbv7uiHE",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "실내 자전거타기",
+        "section": "본운동",
+        "sets": "10분",
+        "fitness": "심폐지구력",
+        "region": "하체",
+        "tool": "자전거",
+        "source": "own",
+        "videoId": "7q4Qz15toLo",
+        "reason": "약점 [심폐지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작 · 유산소 합계 20분으로 분할"
+       },
+       {
+        "name": "트레드밀에서 걷기",
+        "section": "본운동",
+        "sets": "10분",
+        "fitness": "심폐지구력",
+        "region": "하체",
+        "tool": "자전거",
+        "source": "own",
+        "videoId": "50UOtjMsGIs",
+        "reason": "약점 [심폐지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작 · 유산소 합계 20분으로 분할"
+       },
+       {
+        "name": "하지 루틴 스트레칭1",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "YsUMvs_yCOU",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "하체 지구력 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "하지 루틴 스트레칭2",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "aS-BWKK2izs",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "실내 자전거타기",
+        "section": "본운동",
+        "sets": "20분",
+        "fitness": "심폐지구력",
+        "region": "하체",
+        "tool": "자전거",
+        "source": "own",
+        "videoId": "7q4Qz15toLo",
+        "reason": "약점 [심폐지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "네발기기 자세로 팔 다리 들기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "N6Zvq4CiQhU",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 하체 · 숨 참지 말고 내쉬며 힘주기"
+       },
+       {
+        "name": "넙다리 뒤쪽 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "ostPgJJAAoE",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "근력 보완 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "아래 팔 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "fU0N9YdBFxI",
+        "reason": "부위 상체"
+       },
+       {
+        "name": "팔꿈치 굽히기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "상체",
+        "tool": "물병",
+        "source": "lib",
+        "videoId": "-CbeQjvGgoc",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 상체 · 숨 참지 말고 내쉬며 힘주기"
+       },
+       {
+        "name": "물병 옆으로 들어올리기",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "상체",
+        "tool": "물병",
+        "source": "lib",
+        "videoId": "m37laE5fbKI",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 상체 · 숨 참지 말고 내쉬며 힘주기"
+       },
+       {
+        "name": "목 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "d1tYcRykLPk",
+        "reason": "부위 상체"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "rmeta": {
+   "deficit": {
+    "심폐지구력": 0.78,
+    "근력/근지구력": 0.58,
+    "유연성": 0.29,
+    "민첩성/순발력": 0.05
+   },
+   "safety": {
+    "highBP": true,
+    "sbp": 125.0,
+    "dbp": 90.0,
+    "heavy": true,
+    "bmi": 26.0,
+    "avgRpe": 6.2
+   },
+   "popGroup": {
+    "age": "성인",
+    "weak": "심폐지구력",
+    "n": 8164
+   },
+   "themes": [
+    {
+     "id": "A",
+     "label": "유산소 지구력 집중"
+    },
+    {
+     "id": "B",
+     "label": "하체 지구력 집중"
+    },
+    {
+     "id": "C",
+     "label": "근력 보완 코스"
+    }
+   ],
+   "hitOrig": 67,
+   "hitGen": 100,
+   "hitByOpt": {
+    "A": 100,
+    "B": 100,
+    "C": 100
+   },
+   "libSize": 167,
+   "newCount": 51,
+   "ownCount": 33,
+   "total": 84,
+   "uniqueTotal": 38,
+   "weekUnique": 38
+  },
+  "hitPop": [
+   [
+    "심폐지구력",
+    "심폐지구력",
+    35.4,
+    27.7,
+    7.6
+   ]
+  ],
+  "ck": {
+   "goal": 3,
+   "today": 53,
+   "churnWeek": 6,
+   "tail": 18,
+   "weeksUsed": 5,
+   "slots": 15,
+   "lo": 73.3,
+   "hi": 86.7,
+   "loRaw": 52.4,
+   "hiRaw": 90.5,
+   "kspo": 64,
+   "log": [
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "own",
+     5,
+     "33분",
+     "동네 한 바퀴"
+    ],
+    [
+     "own",
+     7,
+     "46분",
+     "집에서 스트레칭"
+    ],
+    [
+     "rx",
+     7,
+     "20분",
+     "무리 없이 완료"
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "충분한 수면 취함"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "오늘은 컨디션 난조"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "일정이 바빴음"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "근육통이 있어 쉼"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "충분한 수면 취함"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "오늘은 컨디션 난조"
+    ],
+    [
+     "rx",
+     7,
+     "38분",
+     "무리 없이 완료"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "근육통이 있어 쉼"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "충분한 수면 취함"
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rx",
+     7,
+     "49분",
+     "세트 수 다 채움"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "근육통이 있어 쉼"
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rx",
+     6,
+     "32분",
+     "처방 루틴 그대로 수행"
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "own",
+     5,
+     "36분",
+     "집에서 스트레칭"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "충분한 수면 취함"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "오늘은 컨디션 난조"
+    ],
+    [
+     "own",
+     6,
+     "28분",
+     "동네 한 바퀴"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "근육통이 있어 쉼"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "충분한 수면 취함"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "오늘은 컨디션 난조"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "일정이 바빴음"
+    ],
+    [
+     "rx",
+     7,
+     "37분",
+     "처방 루틴 그대로 수행"
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rx",
+     6,
+     "44분",
+     "세트 수 다 채움"
+    ],
+    [
+     "rx",
+     5,
+     "42분",
+     "무리 없이 완료"
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "충분한 수면 취함"
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "fut",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "fut",
+     0,
+     "-",
+     ""
+    ]
+   ]
+  },
+  "sim": {
+   "goalPerWeek": 3,
+   "assumedAdherence": 60,
+   "rangeMean": [
+    57,
+    72
+   ],
+   "widthMean": 14.7,
+   "churnRate": 21.8,
+   "decidable": 50.8,
+   "certainUp": 15.1,
+   "certainDown": 35.7,
+   "note": "판정되는 경우의 대부분이 '미달 확실'(35.7%). 8주를 기다리지 않고 4~5주차에 조기 경고를 띄울 근거가 된다."
+  }
+ },
+ {
+  "code": "P3",
+  "memberId": "AAGy7vbkly5m3SJn0DP5WTbs",
+  "desc": "전 영역 저강도 보강 · 낙상 위험군",
+  "ageGroup": "어르신",
+  "sex": "여",
+  "age": 67,
+  "ageBin": "65~69세",
+  "center": "진천",
+  "measureDate": "20251028",
+  "file": "KS_NFA_FTNESS_MESURE_MVN_PRSCRPTN_GNRLZ_INFO_202510.csv",
+  "row": 16349,
+  "centerCd": "077",
+  "body": {
+   "신장(cm)": 147.0,
+   "체중(kg)": 46.0,
+   "BMI": 21.3,
+   "체지방률(%)": 26.6,
+   "허리둘레(cm)": 73.1,
+   "수축기혈압": 122.0,
+   "이완기혈압": 68.0,
+   "악력 좌(kg)": 13.8,
+   "악력 우(kg)": 16.9
+  },
+  "raw": [
+   {
+    "section": "준비운동",
+    "items": [
+     "고정식 트레드밀에서 걷기",
+     "고정식 자전거 타기",
+     "옆구리 스트레칭",
+     "몸 앞으로 굽히기"
+    ]
+   },
+   {
+    "section": "본운동",
+    "items": [
+     "서서 다리로 탄력밴드 당겨 중심 잡기 루틴 운동",
+     "균형 걷기",
+     "짐볼 앉기",
+     "앉아서 다리 펴기",
+     "밴드 걸고 엎드려서 다리 구부리기"
+    ]
+   },
+   {
+    "section": "정리운동",
+    "items": [
+     "마주 앉아 대퇴이두근 스트레칭2",
+     "고관절 스트레칭"
+    ]
+   }
+  ],
+  "week": [
+   {
+    "day": "월",
+    "recommend": "A",
+    "options": [
+     {
+      "id": "A",
+      "label": "협응·보행 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "몸 앞으로 굽히기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "의자",
+        "source": "own",
+        "videoId": "wx2v-DU9kr8",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "발바닥 치기",
+        "section": "본운동",
+        "sets": "1세트 × 30초",
+        "fitness": "협응력",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "3tXwkI9mLWM",
+        "reason": "약점 [협응력] 직접 보강 · 부위 전신 · 기초 단계로 시작"
+       },
+       {
+        "name": "의자 앉아 공 밀기",
+        "section": "본운동",
+        "sets": "1세트 × 30초",
+        "fitness": "협응력",
+        "region": "전신",
+        "tool": "의자/공",
+        "source": "lib",
+        "videoId": "KYdtC_7Uorg",
+        "reason": "약점 [협응력] 직접 보강 · 부위 전신 · 기초 단계로 시작"
+       },
+       {
+        "name": "엉덩이 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "짐볼",
+        "source": "lib",
+        "videoId": "DuT2CxXpjMI",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "균형·보행 안정 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "골반 스트레칭2",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "짐볼",
+        "source": "lib",
+        "videoId": "V0QgXsA6Zv0",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "균형 걷기",
+        "section": "본운동",
+        "sets": "2세트 × 20초 유지",
+        "fitness": "평형성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "Csa1WTJc5ys",
+        "reason": "약점 [평형성] 직접 보강 · 부위 전신"
+       },
+       {
+        "name": "서서 다리로 탄력밴드 당겨 중심 잡기 루틴 운동",
+        "section": "본운동",
+        "sets": "2세트 × 20초 유지",
+        "fitness": "평형성",
+        "region": "전신",
+        "tool": "탄력밴드",
+        "source": "own",
+        "videoId": "nraX-E22Uiw",
+        "reason": "약점 [평형성] 직접 보강 · 부위 전신"
+       },
+       {
+        "name": "비복근 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "의자",
+        "source": "lib",
+        "videoId": "bWmGuFHik6A",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "낙상 예방 · 균형 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "대퇴사두근 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "의자",
+        "source": "lib",
+        "videoId": "VeZl905pjww",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "밴드 걸고 엎드려서 다리 구부리기",
+        "section": "본운동",
+        "sets": "1세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "하체",
+        "tool": "밴드",
+        "source": "own",
+        "videoId": "WPP0xF_vFw4",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "앉아서 다리 펴기",
+        "section": "본운동",
+        "sets": "1세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "하체",
+        "tool": "웨이트기계",
+        "source": "own",
+        "videoId": "_zAgw6exWvE",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "내전근 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "의자",
+        "source": "lib",
+        "videoId": "kqDHbTQdAnI",
+        "reason": "부위 하체"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "화",
+    "recommend": "B",
+    "options": [
+     {
+      "id": "A",
+      "label": "협응·보행 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "발가락 폄근 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "의자",
+        "source": "lib",
+        "videoId": "YRrAjY5OybY",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "의자 이용하기",
+        "section": "본운동",
+        "sets": "1세트 × 30초",
+        "fitness": "협응력",
+        "region": "전신",
+        "tool": "의자",
+        "source": "lib",
+        "videoId": "ZDlWKL9QeyQ",
+        "reason": "약점 [협응력] 직접 보강 · 부위 전신 · 기초 단계로 시작"
+       },
+       {
+        "name": "좌우로 선넘기",
+        "section": "본운동",
+        "sets": "1세트 × 30초",
+        "fitness": "협응력",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "LvHNt8KNBxQ",
+        "reason": "약점 [협응력] 직접 보강 · 부위 전신 · 기초 단계로 시작"
+       },
+       {
+        "name": "엉덩이 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "의자",
+        "source": "lib",
+        "videoId": "kpSbL_iyUBs",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "균형·보행 안정 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "대퇴사두근 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "8-p2-_fIcn4",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "의자 이용 중심 잡기 루틴 운동",
+        "section": "본운동",
+        "sets": "2세트 × 20초 유지",
+        "fitness": "평형성",
+        "region": "전신",
+        "tool": "의자",
+        "source": "lib",
+        "videoId": "TXuY9C4UvI0",
+        "reason": "약점 [평형성] 직접 보강 · 부위 전신"
+       },
+       {
+        "name": "짐볼 앉아 중심 잡기 루틴 운동",
+        "section": "본운동",
+        "sets": "2세트 × 20초 유지",
+        "fitness": "평형성",
+        "region": "전신",
+        "tool": "짐볼",
+        "source": "lib",
+        "videoId": "1CTWSroJe3g",
+        "reason": "약점 [평형성] 직접 보강 · 부위 전신"
+       },
+       {
+        "name": "엉덩이 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "o8uK0ayln7M",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "낙상 예방 · 균형 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "종아리 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "2SSjtjcLcU0",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "덤벨 잡고 앉았다 일어서기",
+        "section": "본운동",
+        "sets": "1세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "하체",
+        "tool": "프리웨이트",
+        "source": "lib",
+        "videoId": "aWEBPV54Wv8",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "몸통 들어올리기",
+        "section": "본운동",
+        "sets": "1세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "6D98FQf6SvI",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "엉덩이 스트레칭2",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "qSB321IIFSE",
+        "reason": "부위 하체"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "수",
+    "recommend": "C",
+    "options": [
+     {
+      "id": "A",
+      "label": "협응·보행 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "몸통 앞으로 굽혀 걷기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "rJ4D69MIZ5s",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "앞뒤로 선넘기",
+        "section": "본운동",
+        "sets": "1세트 × 30초",
+        "fitness": "협응력",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "17tyLvjkjDs",
+        "reason": "약점 [협응력] 직접 보강 · 부위 전신 · 기초 단계로 시작"
+       },
+       {
+        "name": "옆으로 걷기",
+        "section": "본운동",
+        "sets": "1세트 × 30초",
+        "fitness": "협응력",
+        "region": "전신",
+        "tool": "사다리",
+        "source": "lib",
+        "videoId": "MpJ4hBfguV8",
+        "reason": "약점 [협응력] 직접 보강 · 부위 전신 · 기초 단계로 시작"
+       },
+       {
+        "name": "엉덩이 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "6_zf8p4suaA",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "균형·보행 안정 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "어깨 양 옆으로 돌리기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "ABZyRvGniwc",
+        "reason": "부위 상체"
+       },
+       {
+        "name": "한발 들기",
+        "section": "본운동",
+        "sets": "2세트 × 20초 유지",
+        "fitness": "평형성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "aHpzBV7JBOA",
+        "reason": "약점 [평형성] 직접 보강 · 부위 전신"
+       },
+       {
+        "name": "양발 나란히 서기",
+        "section": "본운동",
+        "sets": "2세트 × 20초 유지",
+        "fitness": "평형성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "n5lc_PYZODs",
+        "reason": "약점 [평형성] 직접 보강 · 부위 전신"
+       },
+       {
+        "name": "넙다리 안쪽 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "RrGoEv7vTdU",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "낙상 예방 · 균형 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "엉덩이 스트레칭2",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "N8UiqRJmyN4",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "밴드 걸고 옆으로 누워 다리 올리기",
+        "section": "본운동",
+        "sets": "1세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "하체",
+        "tool": "밴드",
+        "source": "lib",
+        "videoId": "DHvQ2FyT5po",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "밴드 걸고 앉아서 발등 굽힘",
+        "section": "본운동",
+        "sets": "1세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "하체",
+        "tool": "밴드",
+        "source": "lib",
+        "videoId": "66KdRFyt_O0",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "넙다리 앞쪽 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "tWVTfDntPSs",
+        "reason": "부위 하체"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "목",
+    "recommend": "A",
+    "options": [
+     {
+      "id": "A",
+      "label": "협응·보행 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "골반 스트레칭2",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "짐볼",
+        "source": "lib",
+        "videoId": "V0QgXsA6Zv0",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "줄 따라 걷기",
+        "section": "본운동",
+        "sets": "1세트 × 30초",
+        "fitness": "협응력",
+        "region": "전신",
+        "tool": "줄",
+        "source": "lib",
+        "videoId": "SdUIfqqUgdw",
+        "reason": "약점 [협응력] 직접 보강 · 부위 전신 · 기초 단계로 시작"
+       },
+       {
+        "name": "풍선차기",
+        "section": "본운동",
+        "sets": "1세트 × 30초",
+        "fitness": "협응력",
+        "region": "전신",
+        "tool": "제기",
+        "source": "lib",
+        "videoId": "-uAtoUrmmRs",
+        "reason": "약점 [협응력] 직접 보강 · 부위 전신 · 기초 단계로 시작"
+       },
+       {
+        "name": "비복근 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "의자",
+        "source": "lib",
+        "videoId": "bWmGuFHik6A",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "균형·보행 안정 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "몸 앞으로 굽히기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "의자",
+        "source": "own",
+        "videoId": "wx2v-DU9kr8",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "좌우 찍기",
+        "section": "본운동",
+        "sets": "2세트 × 20초 유지",
+        "fitness": "평형성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "rdsVdzLUrGY",
+        "reason": "약점 [평형성] 직접 보강 · 부위 전신"
+       },
+       {
+        "name": "베개 밟고 서기",
+        "section": "본운동",
+        "sets": "2세트 × 20초 유지",
+        "fitness": "평형성",
+        "region": "전신",
+        "tool": "베개",
+        "source": "lib",
+        "videoId": "VTFGHFONGgg",
+        "reason": "약점 [평형성] 직접 보강 · 부위 전신"
+       },
+       {
+        "name": "엉덩이 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "짐볼",
+        "source": "lib",
+        "videoId": "DuT2CxXpjMI",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "낙상 예방 · 균형 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "옆구리 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "몸통",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "pkjirZ3ZH0w",
+        "reason": "부위 몸통"
+       },
+       {
+        "name": "균형 걷기",
+        "section": "본운동",
+        "sets": "2세트 × 20초 유지",
+        "fitness": "평형성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "Csa1WTJc5ys",
+        "reason": "약점 [평형성] 직접 보강 · 부위 전신"
+       },
+       {
+        "name": "서서 다리로 탄력밴드 당겨 중심 잡기 루틴 운동",
+        "section": "본운동",
+        "sets": "2세트 × 20초 유지",
+        "fitness": "평형성",
+        "region": "전신",
+        "tool": "탄력밴드",
+        "source": "own",
+        "videoId": "nraX-E22Uiw",
+        "reason": "약점 [평형성] 직접 보강 · 부위 전신"
+       },
+       {
+        "name": "고관절 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "몸통",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "MsP05OfVP4c",
+        "reason": "부위 몸통"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "금",
+    "recommend": "B",
+    "options": [
+     {
+      "id": "A",
+      "label": "협응·보행 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "대퇴사두근 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "의자",
+        "source": "lib",
+        "videoId": "VeZl905pjww",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "발바닥 치기",
+        "section": "본운동",
+        "sets": "1세트 × 30초",
+        "fitness": "협응력",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "3tXwkI9mLWM",
+        "reason": "약점 [협응력] 직접 보강 · 부위 전신 · 기초 단계로 시작"
+       },
+       {
+        "name": "의자 앉아 공 밀기",
+        "section": "본운동",
+        "sets": "1세트 × 30초",
+        "fitness": "협응력",
+        "region": "전신",
+        "tool": "의자/공",
+        "source": "lib",
+        "videoId": "KYdtC_7Uorg",
+        "reason": "약점 [협응력] 직접 보강 · 부위 전신 · 기초 단계로 시작"
+       },
+       {
+        "name": "내전근 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "의자",
+        "source": "lib",
+        "videoId": "kqDHbTQdAnI",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "균형·보행 안정 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "발가락 폄근 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "의자",
+        "source": "lib",
+        "videoId": "YRrAjY5OybY",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "밴드 걸고 엎드려서 다리 구부리기",
+        "section": "본운동",
+        "sets": "1세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "하체",
+        "tool": "밴드",
+        "source": "own",
+        "videoId": "WPP0xF_vFw4",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "의자 이용하기",
+        "section": "본운동",
+        "sets": "1세트 × 30초",
+        "fitness": "협응력",
+        "region": "전신",
+        "tool": "의자",
+        "source": "lib",
+        "videoId": "ZDlWKL9QeyQ",
+        "reason": "약점 [협응력] 직접 보강 · 부위 전신 · 기초 단계로 시작"
+       },
+       {
+        "name": "엉덩이 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "의자",
+        "source": "lib",
+        "videoId": "kpSbL_iyUBs",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "낙상 예방 · 균형 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "대퇴사두근 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "8-p2-_fIcn4",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "앉아서 다리 펴기",
+        "section": "본운동",
+        "sets": "1세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "하체",
+        "tool": "웨이트기계",
+        "source": "own",
+        "videoId": "_zAgw6exWvE",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "의자 이용 중심 잡기 루틴 운동",
+        "section": "본운동",
+        "sets": "2세트 × 20초 유지",
+        "fitness": "평형성",
+        "region": "전신",
+        "tool": "의자",
+        "source": "lib",
+        "videoId": "TXuY9C4UvI0",
+        "reason": "약점 [평형성] 직접 보강 · 부위 전신"
+       },
+       {
+        "name": "엉덩이 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "o8uK0ayln7M",
+        "reason": "부위 하체"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "토",
+    "recommend": "C",
+    "options": [
+     {
+      "id": "A",
+      "label": "협응·보행 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "종아리 스트레칭",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "2SSjtjcLcU0",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "좌우로 선넘기",
+        "section": "본운동",
+        "sets": "1세트 × 30초",
+        "fitness": "협응력",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "LvHNt8KNBxQ",
+        "reason": "약점 [협응력] 직접 보강 · 부위 전신 · 기초 단계로 시작"
+       },
+       {
+        "name": "스카프 라인",
+        "section": "본운동",
+        "sets": "1세트 × 30초",
+        "fitness": "협응력",
+        "region": "전신",
+        "tool": "스카프",
+        "source": "lib",
+        "videoId": "eYFjJB0KC3Y",
+        "reason": "약점 [협응력] 직접 보강 · 부위 전신 · 기초 단계로 시작"
+       },
+       {
+        "name": "엉덩이 스트레칭2",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "qSB321IIFSE",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "균형·보행 안정 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "몸통 앞으로 굽혀 걷기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "rJ4D69MIZ5s",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "짐볼 앉아 중심 잡기 루틴 운동",
+        "section": "본운동",
+        "sets": "2세트 × 20초 유지",
+        "fitness": "평형성",
+        "region": "전신",
+        "tool": "짐볼",
+        "source": "lib",
+        "videoId": "1CTWSroJe3g",
+        "reason": "약점 [평형성] 직접 보강 · 부위 전신"
+       },
+       {
+        "name": "앞뒤로 선넘기",
+        "section": "본운동",
+        "sets": "1세트 × 30초",
+        "fitness": "협응력",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "17tyLvjkjDs",
+        "reason": "약점 [협응력] 직접 보강 · 부위 전신 · 기초 단계로 시작"
+       },
+       {
+        "name": "엉덩이 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "6_zf8p4suaA",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "낙상 예방 · 균형 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "어깨 양 옆으로 돌리기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "상체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "ABZyRvGniwc",
+        "reason": "부위 상체"
+       },
+       {
+        "name": "덤벨 잡고 앉았다 일어서기",
+        "section": "본운동",
+        "sets": "1세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "하체",
+        "tool": "프리웨이트",
+        "source": "lib",
+        "videoId": "aWEBPV54Wv8",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "몸통 들어올리기",
+        "section": "본운동",
+        "sets": "1세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "6D98FQf6SvI",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "넙다리 안쪽 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "RrGoEv7vTdU",
+        "reason": "부위 하체"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "일",
+    "recommend": "A",
+    "options": [
+     {
+      "id": "A",
+      "label": "협응·보행 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "몸 앞으로 굽히기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "의자",
+        "source": "own",
+        "videoId": "wx2v-DU9kr8",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "옆으로 걷기",
+        "section": "본운동",
+        "sets": "1세트 × 30초",
+        "fitness": "협응력",
+        "region": "전신",
+        "tool": "사다리",
+        "source": "lib",
+        "videoId": "MpJ4hBfguV8",
+        "reason": "약점 [협응력] 직접 보강 · 부위 전신 · 기초 단계로 시작"
+       },
+       {
+        "name": "발로 공주고 받기",
+        "section": "본운동",
+        "sets": "1세트 × 30초",
+        "fitness": "협응력",
+        "region": "전신",
+        "tool": "공",
+        "source": "lib",
+        "videoId": "K5SeD0JEG5c",
+        "reason": "약점 [협응력] 직접 보강 · 부위 전신 · 기초 단계로 시작"
+       },
+       {
+        "name": "엉덩이 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "짐볼",
+        "source": "lib",
+        "videoId": "DuT2CxXpjMI",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "균형·보행 안정 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "골반 스트레칭2",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "짐볼",
+        "source": "lib",
+        "videoId": "V0QgXsA6Zv0",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "균형 걷기",
+        "section": "본운동",
+        "sets": "2세트 × 20초 유지",
+        "fitness": "평형성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "Csa1WTJc5ys",
+        "reason": "약점 [평형성] 직접 보강 · 부위 전신"
+       },
+       {
+        "name": "서서 다리로 탄력밴드 당겨 중심 잡기 루틴 운동",
+        "section": "본운동",
+        "sets": "2세트 × 20초 유지",
+        "fitness": "평형성",
+        "region": "전신",
+        "tool": "탄력밴드",
+        "source": "own",
+        "videoId": "nraX-E22Uiw",
+        "reason": "약점 [평형성] 직접 보강 · 부위 전신"
+       },
+       {
+        "name": "비복근 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "의자",
+        "source": "lib",
+        "videoId": "bWmGuFHik6A",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "낙상 예방 · 균형 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "엉덩이 스트레칭2",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "N8UiqRJmyN4",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "밴드 걸고 옆으로 누워 다리 올리기",
+        "section": "본운동",
+        "sets": "1세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "하체",
+        "tool": "밴드",
+        "source": "lib",
+        "videoId": "DHvQ2FyT5po",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "밴드 걸고 앉아서 발등 굽힘",
+        "section": "본운동",
+        "sets": "1세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "하체",
+        "tool": "밴드",
+        "source": "lib",
+        "videoId": "66KdRFyt_O0",
+        "reason": "약점 [근력/근지구력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "넙다리 앞쪽 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "tWVTfDntPSs",
+        "reason": "부위 하체"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "rmeta": {
+   "deficit": {
+    "협응력": 0.87,
+    "근력/근지구력": 0.87,
+    "평형성": 0.79,
+    "심폐지구력": 0.78,
+    "유연성": 0.57
+   },
+   "safety": {
+    "highBP": false,
+    "sbp": 122.0,
+    "dbp": 68.0,
+    "heavy": false,
+    "bmi": 21.3,
+    "avgRpe": 6.1
+   },
+   "popGroup": {
+    "age": "어르신",
+    "weak": "협응력",
+    "n": 5120
+   },
+   "themes": [
+    {
+     "id": "A",
+     "label": "협응·보행 집중"
+    },
+    {
+     "id": "B",
+     "label": "균형·보행 안정 집중"
+    },
+    {
+     "id": "C",
+     "label": "낙상 예방 · 균형 코스"
+    }
+   ],
+   "hitOrig": 80,
+   "hitGen": 100,
+   "hitByOpt": {
+    "A": 100,
+    "B": 100,
+    "C": 100
+   },
+   "libSize": 145,
+   "newCount": 69,
+   "ownCount": 15,
+   "total": 84,
+   "uniqueTotal": 39,
+   "weekUnique": 39
+  },
+  "hitPop": [
+   [
+    "협응력",
+    "협응력",
+    8.1,
+    5.7,
+    2.4
+   ]
+  ],
+  "ck": {
+   "goal": 2,
+   "today": 53,
+   "churnWeek": null,
+   "tail": 0,
+   "weeksUsed": 7,
+   "slots": 14,
+   "lo": 85.7,
+   "hi": 100.0,
+   "loRaw": 85.7,
+   "hiRaw": 100.0,
+   "kspo": 64,
+   "log": [
+    [
+     "own",
+     5,
+     "25분",
+     "가볍게 걷기 추가"
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "own",
+     5,
+     "34분",
+     "집에서 스트레칭"
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "충분한 수면 취함"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "오늘은 컨디션 난조"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "일정이 바빴음"
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "충분한 수면 취함"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "오늘은 컨디션 난조"
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rx",
+     7,
+     "42분",
+     "마지막 세트가 조금 힘들었음"
+    ],
+    [
+     "rx",
+     6,
+     "21분",
+     "처방 루틴 그대로 수행"
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rx",
+     6,
+     "36분",
+     "약점 부위 자극 잘 들어옴"
+    ],
+    [
+     "rx",
+     5,
+     "21분",
+     "세트 수 다 채움"
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "own",
+     7,
+     "26분",
+     "가볍게 걷기 추가"
+    ],
+    [
+     "rx",
+     7,
+     "22분",
+     "마지막 세트가 조금 힘들었음"
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rx",
+     7,
+     "38분",
+     "처방 루틴 그대로 수행"
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rx",
+     8,
+     "42분",
+     "세트 수 다 채움"
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "근육통이 있어 쉼"
+    ],
+    [
+     "rx",
+     5,
+     "27분",
+     "무리 없이 완료"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "오늘은 컨디션 난조"
+    ],
+    [
+     "rx",
+     5,
+     "35분",
+     "처방 루틴 그대로 수행"
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "own",
+     6,
+     "31분",
+     "계단 오르기로 대체"
+    ],
+    [
+     "own",
+     7,
+     "29분",
+     "가볍게 걷기 추가"
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "fut",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "fut",
+     0,
+     "-",
+     ""
+    ]
+   ]
+  },
+  "sim": {
+   "goalPerWeek": 2,
+   "assumedAdherence": 70,
+   "rangeMean": [
+    67,
+    79
+   ],
+   "widthMean": 12.1,
+   "churnRate": 10.2,
+   "decidable": 58.5,
+   "certainUp": 34.5,
+   "certainDown": 23.9,
+   "note": "슬롯이 16개로 가장 적은데도 범위 폭 12.1%p로 준수하다. 폭은 기록 수가 아니라 기록 누락률로 결정되기 때문. 이탈률도 10.2%로 가장 낮다."
+  }
+ },
+ {
+  "code": "P4",
+  "memberId": "AAGm6UyhEL14RJDd9/0NQniL",
+  "desc": "민첩성 집중 케어 · 고성취 단일 약점형",
+  "ageGroup": "청소년",
+  "sex": "남",
+  "age": 17,
+  "ageBin": "15~19세",
+  "center": "포천",
+  "measureDate": "20260608",
+  "file": "KS_NFA_FTNESS_MESURE_MVN_PRSCRPTN_GNRLZ_INFO_202606.csv",
+  "row": 7017,
+  "centerCd": "088",
+  "body": {
+   "신장(cm)": 170.7,
+   "체중(kg)": 61.9,
+   "BMI": 21.2,
+   "체지방률(%)": 10.0,
+   "허리둘레(cm)": 76.0,
+   "수축기혈압": 127.0,
+   "이완기혈압": 53.0,
+   "악력 좌(kg)": 43.4,
+   "악력 우(kg)": 46.1
+  },
+  "raw": [
+   {
+    "section": "준비운동",
+    "items": [
+     "발 끝 당기기",
+     "의자에 앉아 몸통비틀기"
+    ]
+   },
+   {
+    "section": "본운동",
+    "items": [
+     "윗몸 일으키기",
+     "누워 무릎 기울기",
+     "자전거타기",
+     "양발 모았다 벌려뛰기"
+    ]
+   },
+   {
+    "section": "정리운동",
+    "items": [
+     "나비자세",
+     "모관운동"
+    ]
+   }
+  ],
+  "week": [
+   {
+    "day": "월",
+    "recommend": "A",
+    "options": [
+     {
+      "id": "A",
+      "label": "민첩성 강화 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "발목 돌리기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "sVESU0zsN8M",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "양발 모았다 벌려뛰기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "사다리",
+        "source": "own",
+        "videoId": "5-ihW5_Idos",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "앉았다 일어나며 점프하기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "DZav3lpO4cc",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "나비자세",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "JtYg2OKbNyY",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "하체 방향전환 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "발 끝 당기기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "njziTUqaACU",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "앞굽이 뛰기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "O6jK17-Ph3w",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "사이드 한발 뛰기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "sx8wmosOr58",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "몸통 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "P541qzMUzqI",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "전신 이완 · 밸런스 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "동적 스트레칭 루틴프로그램",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "wKxfDV7j44I",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "모관운동",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "HaMZOnbpNpg",
+        "reason": "[유연성] 균형 · 부위 전신"
+       },
+       {
+        "name": "맨몸운동  루틴프로그램",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "8rYcSq4lF20",
+        "reason": "[근력/근지구력] 균형 · 부위 전신"
+       },
+       {
+        "name": "정적 스트레칭  루틴프로그램",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "AjP1ntmtMQk",
+        "reason": "부위 전신"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "화",
+    "recommend": "B",
+    "options": [
+     {
+      "id": "A",
+      "label": "민첩성 강화 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "양발 벌려 무릎 밀어내기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "UdZGUv4wlXY",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "뒤꿈치 높이들어 뛰기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "3974cYTQiJk",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "사다리 운동  루틴프로그램",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "사다리",
+        "source": "lib",
+        "videoId": "w-8hG1ecvXk",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "다리자세",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "A0E7DRnQ_Q4",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "하체 방향전환 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "양발 교차하여 서서 몸통 숙이기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "bJtOZVdo5fc",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "콘운동  루틴프로그램",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "하프콘",
+        "source": "lib",
+        "videoId": "3C-1-RnAkN4",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "빠르게 앞무릎 올리기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "스텝박스",
+        "source": "lib",
+        "videoId": "NVjWPGvUyCs",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "짝 스트레칭  루틴프로그램",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "nzn5cX71hUM",
+        "reason": "부위 전신"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "전신 이완 · 밸런스 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "한발들어 좌우 돌리기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "1cfaNDv7zxE",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "엎드려 한발 원 그리기",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "V_QyTCcKpbY",
+        "reason": "[유연성] 균형 · 부위 전신"
+       },
+       {
+        "name": "저항밴드 운동  루틴프로그램",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "전신",
+        "tool": "밴드",
+        "source": "lib",
+        "videoId": "BI-JCOyZb0o",
+        "reason": "[근력/근지구력] 균형 · 부위 전신"
+       },
+       {
+        "name": "자세낮춰 이동하기",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "JOiQ_4pKn10",
+        "reason": "부위 전신"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "수",
+    "recommend": "C",
+    "options": [
+     {
+      "id": "A",
+      "label": "민첩성 강화 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "다리모아 무릎 누르기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "ETIxjvO9jIA",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "한발로 점프하기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "스텝박스",
+        "source": "lib",
+        "videoId": "b61cDTnQ4Eg",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "좌우 양발모아 점프하기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "스텝박스",
+        "source": "lib",
+        "videoId": "KTcf_Z6-IUc",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "누워 발목 당겨주기",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "UJw4Ygz2Hv8",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "하체 방향전환 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "서서 발목 뒤로 당기기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "RYn1twwWtqM",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "연속 상향 점프하기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "스텝박스",
+        "source": "lib",
+        "videoId": "1E_yysU93aU",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "사이드 스텝 점프하기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "스텝박스",
+        "source": "lib",
+        "videoId": "id47Irq6AZA",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "서서 발목 누르기",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "jq3VnBfOwoY",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "전신 이완 · 밸런스 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "요가 및 필라테스  루틴프로그램",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "irR1kS8vUPs",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "왜가리 자세",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "E39duPLfufI",
+        "reason": "[유연성] 균형 · 부위 전신"
+       },
+       {
+        "name": "조깅",
+        "section": "본운동",
+        "sets": "25분",
+        "fitness": "심폐지구력",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "RpSDn8NCm04",
+        "reason": "[심폐지구력] 균형 · 부위 전신"
+       },
+       {
+        "name": "나무자세",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "o9rVEWJmw04",
+        "reason": "부위 전신"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "목",
+    "recommend": "A",
+    "options": [
+     {
+      "id": "A",
+      "label": "민첩성 강화 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "발 끝 당기기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "njziTUqaACU",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "앞굽이 뛰기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "O6jK17-Ph3w",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "사이드 한발 뛰기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "sx8wmosOr58",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "몸통 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "P541qzMUzqI",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "하체 방향전환 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "발목 돌리기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "sVESU0zsN8M",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "양발 모았다 벌려뛰기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "사다리",
+        "source": "own",
+        "videoId": "5-ihW5_Idos",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "앉았다 일어나며 점프하기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "DZav3lpO4cc",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "나비자세",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "JtYg2OKbNyY",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "전신 이완 · 밸런스 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "온 몸 뻗어주기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "baeEwhAaAcw",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "전신 비틀며 전진하기",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "ij_VejOk_qk",
+        "reason": "[유연성] 균형 · 부위 전신"
+       },
+       {
+        "name": "버피 테스트",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "pTtqoa8qCKw",
+        "reason": "[근력/근지구력] 균형 · 부위 전신"
+       },
+       {
+        "name": "전사자세",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "9NFqY-70xG0",
+        "reason": "부위 전신"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "금",
+    "recommend": "B",
+    "options": [
+     {
+      "id": "A",
+      "label": "민첩성 강화 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "동적 스트레칭 루틴프로그램",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "wKxfDV7j44I",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "콘운동  루틴프로그램",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "하프콘",
+        "source": "lib",
+        "videoId": "3C-1-RnAkN4",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "빠르게 앞무릎 올리기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "스텝박스",
+        "source": "lib",
+        "videoId": "NVjWPGvUyCs",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "정적 스트레칭  루틴프로그램",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "AjP1ntmtMQk",
+        "reason": "부위 전신"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "하체 방향전환 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "양발 벌려 무릎 밀어내기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "UdZGUv4wlXY",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "뒤꿈치 높이들어 뛰기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "3974cYTQiJk",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "사다리 운동  루틴프로그램",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "사다리",
+        "source": "lib",
+        "videoId": "w-8hG1ecvXk",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "다리자세",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "A0E7DRnQ_Q4",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "전신 이완 · 밸런스 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "모관운동",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "HaMZOnbpNpg",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "짝 스트레칭  루틴프로그램",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "nzn5cX71hUM",
+        "reason": "[유연성] 균형 · 부위 전신"
+       },
+       {
+        "name": "맨몸운동  루틴프로그램",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "8rYcSq4lF20",
+        "reason": "[근력/근지구력] 균형 · 부위 전신"
+       },
+       {
+        "name": "휴식자세",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "fSBlJv9LtTo",
+        "reason": "부위 전신"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "토",
+    "recommend": "C",
+    "options": [
+     {
+      "id": "A",
+      "label": "민첩성 강화 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "양발 교차하여 서서 몸통 숙이기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "bJtOZVdo5fc",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "연속 상향 점프하기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "스텝박스",
+        "source": "lib",
+        "videoId": "1E_yysU93aU",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "사이드 스텝 점프하기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "스텝박스",
+        "source": "lib",
+        "videoId": "id47Irq6AZA",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "서서 발목 뒤로 당기기",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "RYn1twwWtqM",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "하체 방향전환 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "다리모아 무릎 누르기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "ETIxjvO9jIA",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "한발로 점프하기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "스텝박스",
+        "source": "lib",
+        "videoId": "b61cDTnQ4Eg",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "좌우 양발모아 점프하기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "스텝박스",
+        "source": "lib",
+        "videoId": "KTcf_Z6-IUc",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "누워 발목 당겨주기",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "UJw4Ygz2Hv8",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "전신 이완 · 밸런스 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "한발들어 좌우 돌리기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "1cfaNDv7zxE",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "엎드려 한발 원 그리기",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "V_QyTCcKpbY",
+        "reason": "[유연성] 균형 · 부위 전신"
+       },
+       {
+        "name": "저항밴드 운동  루틴프로그램",
+        "section": "본운동",
+        "sets": "3세트 × 12회",
+        "fitness": "근력/근지구력",
+        "region": "전신",
+        "tool": "밴드",
+        "source": "lib",
+        "videoId": "BI-JCOyZb0o",
+        "reason": "[근력/근지구력] 균형 · 부위 전신"
+       },
+       {
+        "name": "자세낮춰 이동하기",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "JOiQ_4pKn10",
+        "reason": "부위 전신"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "day": "일",
+    "recommend": "A",
+    "options": [
+     {
+      "id": "A",
+      "label": "민첩성 강화 집중",
+      "when": "약점 체력을 직접 끌어올리는 날",
+      "items": [
+       {
+        "name": "발목 돌리기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "sVESU0zsN8M",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "양발 모았다 벌려뛰기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "사다리",
+        "source": "own",
+        "videoId": "5-ihW5_Idos",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "앉았다 일어나며 점프하기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "DZav3lpO4cc",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "나비자세",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "JtYg2OKbNyY",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "B",
+      "label": "하체 방향전환 집중",
+      "when": "약점 부위를 집중 관리하는 날",
+      "items": [
+       {
+        "name": "발 끝 당기기",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "own",
+        "videoId": "njziTUqaACU",
+        "reason": "부위 하체"
+       },
+       {
+        "name": "앞굽이 뛰기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "O6jK17-Ph3w",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "사이드 한발 뛰기",
+        "section": "본운동",
+        "sets": "2세트 × 30초",
+        "fitness": "민첩성/순발력",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "sx8wmosOr58",
+        "reason": "약점 [민첩성/순발력] 직접 보강 · 부위 하체 · 기초 단계로 시작"
+       },
+       {
+        "name": "몸통 스트레칭",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "하체",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "P541qzMUzqI",
+        "reason": "부위 하체"
+       }
+      ]
+     },
+     {
+      "id": "C",
+      "label": "전신 이완 · 밸런스 코스",
+      "when": "전체 균형을 잡는 날",
+      "items": [
+       {
+        "name": "요가 및 필라테스  루틴프로그램",
+        "section": "준비운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "irR1kS8vUPs",
+        "reason": "부위 전신"
+       },
+       {
+        "name": "왜가리 자세",
+        "section": "본운동",
+        "sets": "3세트 × 30초 유지",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "E39duPLfufI",
+        "reason": "[유연성] 균형 · 부위 전신"
+       },
+       {
+        "name": "조깅",
+        "section": "본운동",
+        "sets": "25분",
+        "fitness": "심폐지구력",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "RpSDn8NCm04",
+        "reason": "[심폐지구력] 균형 · 부위 전신"
+       },
+       {
+        "name": "나무자세",
+        "section": "정리운동",
+        "sets": "5분",
+        "fitness": "유연성",
+        "region": "전신",
+        "tool": "맨몸",
+        "source": "lib",
+        "videoId": "o9rVEWJmw04",
+        "reason": "부위 전신"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "rmeta": {
+   "deficit": {
+    "민첩성/순발력": 0.69,
+    "근력/근지구력": 0.07,
+    "유연성": 0.05,
+    "심폐지구력": 0.05
+   },
+   "safety": {
+    "highBP": false,
+    "sbp": 127.0,
+    "dbp": 53.0,
+    "heavy": false,
+    "bmi": 21.2,
+    "avgRpe": 6.9
+   },
+   "popGroup": {
+    "age": "청소년",
+    "weak": "민첩성",
+    "n": 3435
+   },
+   "themes": [
+    {
+     "id": "A",
+     "label": "민첩성 강화 집중"
+    },
+    {
+     "id": "B",
+     "label": "하체 방향전환 집중"
+    },
+    {
+     "id": "C",
+     "label": "전신 이완 · 밸런스 코스"
+    }
+   ],
+   "hitOrig": 25,
+   "hitGen": 100,
+   "hitByOpt": {
+    "A": 100,
+    "B": 100,
+    "C": 0
+   },
+   "libSize": 202,
+   "newCount": 73,
+   "ownCount": 11,
+   "total": 84,
+   "uniqueTotal": 41,
+   "weekUnique": 41
+  },
+  "hitPop": [
+   [
+    "민첩성",
+    "민첩성/순발력",
+    21.4,
+    13.8,
+    7.6
+   ]
+  ],
+  "ck": {
+   "goal": 4,
+   "today": 53,
+   "churnWeek": null,
+   "tail": 0,
+   "weeksUsed": 7,
+   "slots": 28,
+   "lo": 65.6,
+   "hi": 84.4,
+   "loRaw": 65.6,
+   "hiRaw": 84.4,
+   "kspo": 81,
+   "log": [
+    [
+     "rx",
+     6,
+     "45분",
+     "처방 루틴 그대로 수행"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "일정이 바빴음"
+    ],
+    [
+     "rx",
+     6,
+     "32분",
+     "세트 수 다 채움"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "충분한 수면 취함"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "오늘은 컨디션 난조"
+    ],
+    [
+     "rx",
+     5,
+     "28분",
+     "처방 루틴 그대로 수행"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "근육통이 있어 쉼"
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "일정이 바빴음"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "근육통이 있어 쉼"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "충분한 수면 취함"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "오늘은 컨디션 난조"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "일정이 바빴음"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "근육통이 있어 쉼"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "충분한 수면 취함"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "오늘은 컨디션 난조"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "일정이 바빴음"
+    ],
+    [
+     "rx",
+     8,
+     "42분",
+     "무리 없이 완료"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "충분한 수면 취함"
+    ],
+    [
+     "rx",
+     8,
+     "47분",
+     "처방 루틴 그대로 수행"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "일정이 바빴음"
+    ],
+    [
+     "rx",
+     7,
+     "25분",
+     "세트 수 다 채움"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "충분한 수면 취함"
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "일정이 바빴음"
+    ],
+    [
+     "rx",
+     8,
+     "25분",
+     "약점 부위 자극 잘 들어옴"
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rx",
+     8,
+     "36분",
+     "무리 없이 완료"
+    ],
+    [
+     "rx",
+     6,
+     "23분",
+     "마지막 세트가 조금 힘들었음"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "근육통이 있어 쉼"
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "오늘은 컨디션 난조"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "일정이 바빴음"
+    ],
+    [
+     "own",
+     8,
+     "47분",
+     "집에서 스트레칭"
+    ],
+    [
+     "rx",
+     8,
+     "32분",
+     "처방 루틴 그대로 수행"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "오늘은 컨디션 난조"
+    ],
+    [
+     "rx",
+     5,
+     "35분",
+     "세트 수 다 채움"
+    ],
+    [
+     "rx",
+     8,
+     "47분",
+     "무리 없이 완료"
+    ],
+    [
+     "own",
+     6,
+     "24분",
+     "계단 오르기로 대체"
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "off",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rx",
+     7,
+     "26분",
+     "세트 수 다 채움"
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "오늘은 컨디션 난조"
+    ],
+    [
+     "rx",
+     5,
+     "44분",
+     "처방 루틴 그대로 수행"
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "none",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "rx",
+     7,
+     "47분",
+     "무리 없이 완료"
+    ],
+    [
+     "own",
+     6,
+     "38분",
+     "동네 한 바퀴"
+    ],
+    [
+     "rx",
+     6,
+     "36분",
+     "처방 루틴 그대로 수행"
+    ],
+    [
+     "rest",
+     0,
+     "-",
+     "충분한 수면 취함"
+    ],
+    [
+     "own",
+     7,
+     "48분",
+     "가볍게 걷기 추가"
+    ],
+    [
+     "rx",
+     8,
+     "21분",
+     "무리 없이 완료"
+    ],
+    [
+     "fut",
+     0,
+     "-",
+     ""
+    ],
+    [
+     "fut",
+     0,
+     "-",
+     ""
+    ]
+   ]
+  },
+  "sim": {
+   "goalPerWeek": 4,
+   "assumedAdherence": 65,
+   "rangeMean": [
+    62,
+    75
+   ],
+   "widthMean": 13.4,
+   "churnRate": 26.6,
+   "decidable": 47.0,
+   "certainUp": 20.1,
+   "certainDown": 26.9,
+   "note": "목표가 높아 슬롯은 32개로 가장 많지만 이탈률도 26.6%로 가장 높다. '목표를 높게 잡을수록 많이 떠난다'가 개인 단위에서 재현됐다."
+  }
+ }
+]
