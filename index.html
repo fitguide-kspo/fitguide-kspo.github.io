@@ -229,6 +229,12 @@
   @keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
   .sheet-title { font-size: 17px; font-weight: 800; margin-bottom: 4px; padding-right: 30px; }
   .sheet-sub { font-size: 12.5px; color: var(--ink-soft); margin-bottom: 18px; line-height: 1.45; }
+  /* 스크롤이 긴 하단 시트: 제목·✕(·검색창)을 위에 고정 — '시뮬레이션 검증 보기' 시트와 같은 모양 */
+  .bottom-sheet.sheet-sticky { padding-top: 0; }
+  .sheet-head { position: sticky; top: 0; z-index: 6; background: var(--bg); padding: 22px 0 12px; margin-bottom: 16px; border-bottom: 1px solid var(--line); }
+  .sheet-head .sheet-x { top: 18px; right: 0; }
+  .sheet-head .sheet-sub { margin-bottom: 0; }
+  .sheet-head .input-field { margin: 12px 0 0; }
   .select-card { background: var(--bg); border: 1.5px solid var(--line); border-radius: 14px; padding: 16px; margin-bottom: 10px; text-align: left; cursor: pointer; }
   .select-card:active { background: var(--surface); border-color: var(--primary); }
   .select-card .s-title { font-size: 14.5px; font-weight: 800; }
@@ -743,10 +749,12 @@
 
   <!-- 결과지 상세 모달 -->
   <div id="modal-result-detail" class="modal-overlay">
-    <div class="bottom-sheet">
-      <button class="sheet-x" onclick="closeModals()">✕</button>
-      <div class="sheet-title">📄 내 1차 측정 결과지 상세</div>
-      <div class="sheet-sub">측정일 2026.08.19 · 마포 체력인증센터</div>
+    <div class="bottom-sheet sheet-sticky">
+      <div class="sheet-head">
+        <button class="sheet-x" onclick="closeModals()">✕</button>
+        <div class="sheet-title">📄 내 1차 측정 결과지 상세</div>
+        <div class="sheet-sub">측정일 2026.08.19 · 마포 체력인증센터</div>
+      </div>
 
       <div style="display:flex; align-items:center; gap:14px; margin-bottom:18px; padding-bottom:16px; border-bottom:1px solid var(--line);">
         <div style="width:52px; height:52px; border-radius:50%; background:var(--surface-2); display:flex; align-items:center; justify-content:center; font-size:18px; font-weight:900; color:var(--primary); flex-shrink:0;"><span id="ui-modal-grade-num">3</span><span style="font-size:10px;">급</span></div>
@@ -1100,14 +1108,15 @@
   </div>
 
   <div id="modal-set-center" class="modal-overlay">
-    <div class="bottom-sheet">
-      <button class="sheet-x" onclick="closeModals()">✕</button>
-      <div class="sheet-title">체력인증센터 변경</div>
-      <div class="sheet-sub">내 위치를 기반으로 가까운 센터를 찾아드려요</div>
-
-      <div id="center-intro">
-        <input type="text" id="center-search" class="input-field" placeholder="🔍 센터 이름으로 검색" oninput="filterCenters()">
-        <button class="btn-primary" onclick="findNearbyCenters()">📍 내 위치 사용해서 가까운 순으로 보기</button>
+    <div class="bottom-sheet sheet-sticky">
+      <div class="sheet-head">
+        <button class="sheet-x" onclick="closeModals()">✕</button>
+        <div class="sheet-title">체력인증센터 변경</div>
+        <div class="sheet-sub">내 위치를 기반으로 가까운 센터를 찾아드려요</div>
+        <div id="center-intro">
+          <input type="text" id="center-search" class="input-field" placeholder="🔍 센터 이름으로 검색" oninput="filterCenters()">
+          <button class="btn-primary" onclick="findNearbyCenters()">📍 내 위치 사용해서 가까운 순으로 보기</button>
+        </div>
       </div>
 
       <div id="center-loading" style="display:none; text-align:center; padding:24px 0 10px;">
