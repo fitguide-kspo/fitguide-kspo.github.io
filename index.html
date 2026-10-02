@@ -453,7 +453,7 @@
           <div class="streak-badge" id="ui-streak-badge">🔥 0일째 연속</div>
         </div>
 
-        <div class="kspo-tip-card"><span class="tip-icon">💡</span><div class="tip-text"><b>오늘의 KSPO 처방 팁:</b> 호흡을 참지 않고 천천히 내쉬며 운동을 수행하면 자극 효과가 15% 더 향상돼요!</div></div>
+        <div class="kspo-tip-card"><span class="tip-icon">💡</span><div class="tip-text"><b>오늘의 KSPO 처방 팁:</b> 호흡을 참지 않고 천천히 내쉬며 운동을 수행하면 자극 효과가 더 향상돼요!</div></div>
 
         <div id="goal-unlock-banner" style="display:none; align-items:flex-start; gap:10px; background:var(--primary-soft); border:1.5px solid var(--primary); border-radius:14px; padding:14px; margin-bottom:14px;">
           <span style="font-size:20px;">🎉</span>
@@ -2572,8 +2572,8 @@
   function verdict(){                                                         // 판정선 70% (예시값)
     const c=X().ck;
     if (c.churnWeek) return {k:'churn', t:`이탈 (${c.churnWeek}주차~) · 판정 보류`};
-    if (c.lo >= 70) return {k:'up',   t:'등급 상승 확실'};
-    if (c.hi <  70) return {k:'down', t:'등급 상승 미달'};
+    if (c.lo >= 70) return {k:'up',   t:'목표 이행 달성(등급 상승 기대)'};
+    if (c.hi <  70) return {k:'down', t:'목표 이행 미달(등급 상승 어려움)'};
     return {k:'na', t:'판정 불가 (범위가 판정선 70%를 걸침)'};
   }
   function spread(base){                         // 약점 축부터 순서대로 충실도 배분
@@ -3381,7 +3381,7 @@
   function verifyHTML(i){
     const p=personas[i], x=EXT[i], c=x.ck, sm=x.sim, rm=x.rmeta, G=c.goal;
     const simple=Math.round(c.loRaw), W=+(c.hi-c.lo).toFixed(1);
-    const vd = c.churnWeek ? ['이탈 · 판정 보류','#6B7280'] : c.lo>=70 ? ['등급 상승 확실','#059669'] : c.hi<70 ? ['등급 상승 미달','#DC2626'] : ['판정 불가 (범위가 판정선에 걸침)','#D97706'];
+    const vd = c.churnWeek ? ['이탈 · 판정 보류','#6B7280'] : c.lo>=70 ? ['목표 이행 달성(등급 상승 기대)','#059669'] : c.hi<70 ? ['목표 이행 미달(등급 상승 어려움)','#DC2626'] : ['판정 불가 (범위가 판정선에 걸침)','#D97706'];
     const rg = (W<=10 && c.slots>=6) ? ['높음','#059669'] : (W<=20 ? ['보통','#D97706'] : ['낮음','#DC2626']);
     const chip=(t,col)=>`<span style="display:inline-block;font-size:10px;font-weight:800;padding:2px 8px;border-radius:10px;background:${col}1A;color:${col};margin:0 4px 4px 0;">${t}</span>`;
     const L0=30, R0=100, P=v=>((Math.max(L0,Math.min(R0,v))-L0)/(R0-L0)*100).toFixed(1)+'%';
